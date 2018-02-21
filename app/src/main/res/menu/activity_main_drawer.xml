@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fl"
+            android:icon="@drawable/abc"
+            android:title="Alfabeto" />
+        <item
+            android:id="@+id/nav_f2"
+            android:icon="@drawable/arrow_both"
+            android:title="Equivalencias en AFI" />
+        <item
+            android:id="@+id/nav_f3"
+            android:icon="@drawable/info"
+            android:title="Créditos" />
+    </group>
+
+    <item
+        android:title="Communicate"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

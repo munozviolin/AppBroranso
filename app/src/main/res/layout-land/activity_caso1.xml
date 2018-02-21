@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:id="@+id/C1"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso1">
+
+    <Button
+        android:id="@+id/buttonCaso1"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="aféla"
+        android:textAlignment="center"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/black"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCaso1_2"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="ajárra"
+        android:textAlignment="center"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/black"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/margarine"
+        android:text="\a"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:fontFamily="@font/margarine"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonCaso1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="95dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/afela"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso1" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="95dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ajarra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso1_2" />
+
+</android.support.constraint.ConstraintLayout>

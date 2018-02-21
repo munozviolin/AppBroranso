@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:backgroundTint="@android:color/background_light"
+    android:id="@+id/C18"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso18">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/margarine"
+        android:text="rr"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCaso18"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="érra"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCaso18_1"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="136dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="tórroífa"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintStart_toEndOf="@+id/imageButton18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCaso18_2"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="sámorr"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCaso18_3"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="136dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="porróporr"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton20_3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gifIzq18"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gifDer18"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="95dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/erra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton18_2"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/torroifa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18_1"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton20_3"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/samorr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18_2"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton18_4"
+        android:layout_width="94dp"
+        android:layout_height="86dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18_3"
+        app:srcCompat="@android:color/transparent" />
+
+
+</android.support.constraint.ConstraintLayout>
