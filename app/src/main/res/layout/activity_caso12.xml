@@ -81,18 +81,18 @@
         android:layout_height="102dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/safu"
+        android:background="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso12"
         app:srcCompat="@android:color/transparent" />
 
     <ImageButton
         android:id="@+id/imageButton12_2"
-        android:layout_width="90dp"
-        android:layout_height="84dp"
+        android:layout_width="93dp"
+        android:layout_height="86dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/tisul"
+        android:background="@drawable/diohuo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso12_1"
         app:srcCompat="@android:color/transparent" />
