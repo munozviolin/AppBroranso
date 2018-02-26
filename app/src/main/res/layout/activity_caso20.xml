@@ -17,7 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="lh"
+        android:text="c, qu"
         android:textColor="@android:color/black"
         android:textColorLink="@android:color/black"
         android:textSize="24sp"
@@ -34,7 +34,7 @@
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="lhúri"
+        android:text="cúntrën"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +48,7 @@
         android:layout_marginTop="113dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="púlhi"
+        android:text="cŕác"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,25 +62,11 @@
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="cúlha"
+        android:text="dŕun̈quín̈cui"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonCaso20_3"
-        android:layout_width="95dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginTop="108dp"
-        android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
-        android:text="pórilh"
-        android:textAllCaps="?android:attr/windowOverscan"
-        android:textColor="@android:color/holo_green_light"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton20_3" />
 
     <ImageView
         android:id="@+id/gifIzq20"
@@ -107,11 +93,11 @@
 
     <ImageButton
         android:id="@+id/imageButton20"
-        android:layout_width="95dp"
-        android:layout_height="81dp"
-        android:layout_marginStart="52dp"
+        android:layout_width="89dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/lhuri"
+        android:background="@drawable/cuntren"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso20"
         app:srcCompat="@android:color/transparent" />
@@ -121,8 +107,8 @@
         android:layout_width="94dp"
         android:layout_height="95dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/pulhi"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/crac"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso20_1"
         app:srcCompat="@android:color/transparent" />
@@ -133,20 +119,9 @@
         android:layout_height="86dp"
         android:layout_marginEnd="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/culha"
+        android:background="@drawable/drunquincui"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso20_2"
-        app:srcCompat="@android:color/transparent" />
-
-    <ImageButton
-        android:id="@+id/imageButton20_4"
-        android:layout_width="73dp"
-        android:layout_height="83dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/porilh"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso20_3"
         app:srcCompat="@android:color/transparent" />
 
 

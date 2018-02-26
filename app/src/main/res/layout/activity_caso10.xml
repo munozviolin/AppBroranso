@@ -17,7 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="y"
+        android:text="\hu"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -33,7 +33,7 @@
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="yári"
+        android:text="huë́rba"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,25 +47,11 @@
         android:layout_marginTop="92dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="cóyonh"
+        android:text="dióhuo"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
-
-    <Button
-        android:id="@+id/buttonCaso10_2"
-        android:layout_width="95dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginTop="64dp"
-        android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
-        android:text="íyanh"
-        android:textAllCaps="?android:attr/windowOverscan"
-        android:textColor="@android:color/holo_green_light"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/gifIzq10"
@@ -95,7 +81,7 @@
         android:layout_height="102dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/yari"
+        android:background="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso10"
         app:srcCompat="@android:color/transparent" />
@@ -106,20 +92,9 @@
         android:layout_height="102dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/coyonh"
+        android:background="@drawable/diohuo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso10_1"
-        app:srcCompat="@android:color/transparent" />
-
-    <ImageButton
-        android:id="@+id/imageButton10_3"
-        android:layout_width="95dp"
-        android:layout_height="86dp"
-        android:layout_marginEnd="52dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/iyanh"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso10_2"
         app:srcCompat="@android:color/transparent" />
 
 

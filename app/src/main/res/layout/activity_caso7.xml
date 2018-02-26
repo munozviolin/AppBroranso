@@ -17,7 +17,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="t"
+        android:text="\o"
         android:textColor="@android:color/black"
         android:textColorLink="@android:color/black"
         android:textSize="24sp"
@@ -34,7 +34,7 @@
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="táre"
+        android:text="ón̈"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,14 +45,28 @@
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="108dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="tíu"
+        android:text="orsë́a"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <Button
+        android:id="@+id/buttonCaso7_2"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="só"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/gifIzq7"
@@ -78,25 +92,33 @@
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:layout_width="107dp"
-        android:layout_height="51dp"
+        android:layout_width="91dp"
+        android:layout_height="85dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/tare"
+        android:background="@drawable/on"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso7"
         app:srcCompat="@android:color/transparent" />
 
     <ImageButton
         android:id="@+id/imageButton7_2"
-        android:layout_width="95dp"
-        android:layout_height="102dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/tiu"
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orsea"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso7_1"
         app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton7_3"
+        android:layout_width="95dp"
+        android:layout_height="102dp"
+        android:background="@drawable/so"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="117dp" />
 
 
 </android.support.constraint.ConstraintLayout>

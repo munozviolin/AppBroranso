@@ -17,7 +17,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="aféla"
+        android:text="bagá"
         android:textAlignment="center"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
@@ -36,7 +36,7 @@
         android:layout_marginTop="80dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="ajárra"
+        android:text="ácuor"
         android:textAlignment="center"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
@@ -84,17 +84,17 @@
         android:layout_height="112dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/afela"
+        android:background="@drawable/baga"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso1" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="95dp"
-        android:layout_height="112dp"
+        android:layout_height="73dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/ajarra"
+        android:background="@drawable/acuor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso1_2" />
 

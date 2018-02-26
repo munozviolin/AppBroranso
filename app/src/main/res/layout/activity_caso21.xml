@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent"
     android:backgroundTint="@android:color/background_light"
-    android:id="@+id/C5"
-    tools:context="com.tcu.munozviolin.appbroranso.Caso5">
+    android:id="@+id/C21"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso21">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="\i"
+        android:text="c’, qu’"
         android:textColor="@android:color/black"
+        android:textColorLink="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,35 +27,49 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso5"
+        android:id="@+id/buttonCaso21"
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="idón̈"
+        android:text="c’uŕi c’ú"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso5_1"
+        android:id="@+id/buttonCaso21_1"
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="113dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="t’ín̈"
+        android:text="qu’íshcuan̈"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton21" />
+
+    <Button
+        android:id="@+id/buttonCaso21_2"
+        android:layout_width="95dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/margarine"
+        android:text="qu’iá"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/gifIzq5"
+        android:id="@+id/gifIzq21"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -65,36 +80,48 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/gifDer5"
+        android:id="@+id/gifDer21"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="95dp"
-        android:layout_height="102dp"
-        android:layout_marginStart="52dp"
+        android:id="@+id/imageButton21"
+        android:layout_width="89dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/idon"
+        android:background="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso21"
         app:srcCompat="@android:color/transparent" />
 
     <ImageButton
-        android:id="@+id/imageButton5_2"
-        android:layout_width="95dp"
-        android:layout_height="102dp"
-        android:layout_marginStart="47dp"
+        android:id="@+id/imageButton21_2"
+        android:layout_width="94dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/tin"
+        android:background="@drawable/quishcuan"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso5_1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso21_1"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton21_3"
+        android:layout_width="99dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/quia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso21_2"
         app:srcCompat="@android:color/transparent" />
 
 

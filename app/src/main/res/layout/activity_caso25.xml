@@ -4,98 +4,106 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    android:backgroundTint="@android:color/background_light"
-    android:id="@+id/C5"
-    tools:context="com.tcu.munozviolin.appbroranso.Caso5">
+    android:background="@android:color/background_light"
+    android:id="@+id/C25"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso25">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="\i"
+        android:text="s"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso5"
+        android:id="@+id/buttonCaso25"
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="idón̈"
-        android:textAllCaps="?android:attr/windowOverscan"
+        android:text="srúc"
+        android:textAllCaps="?android:attr/windowSwipeToDismiss"
         android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso5_1"
+        android:id="@+id/buttonCaso25_1"
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="89dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="t’ín̈"
-        android:textAllCaps="?android:attr/windowOverscan"
+        android:text="susbó"
+        android:textAllCaps="?android:attr/windowSwipeToDismiss"
         android:textColor="@android:color/holo_green_light"
+        android:textColorLink="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton25_1" />
 
     <ImageView
-        android:id="@+id/gifIzq5"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/gifDer5"
+        android:id="@+id/gifIzq25"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCaso25"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <ImageView
+        android:id="@+id/gifDer25"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonCaso25"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton25_1"
+        android:layout_width="78dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sruc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso25"
+        app:srcCompat="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/imageButton25_2"
         android:layout_width="95dp"
-        android:layout_height="102dp"
+        android:layout_height="90dp"
         android:layout_marginStart="52dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/idon"
+        android:background="@drawable/susbo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso25_1"
         app:srcCompat="@android:color/transparent" />
-
-    <ImageButton
-        android:id="@+id/imageButton5_2"
-        android:layout_width="95dp"
-        android:layout_height="102dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/tin"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso5_1"
-        app:srcCompat="@android:color/transparent" />
-
 
 </android.support.constraint.ConstraintLayout>
