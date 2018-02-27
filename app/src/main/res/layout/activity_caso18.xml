@@ -86,8 +86,8 @@
 
     <ImageButton
         android:id="@+id/imageButton18_1"
-        android:layout_width="69dp"
-        android:layout_height="75dp"
+        android:layout_width="67dp"
+        android:layout_height="72dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/tuerhuo"

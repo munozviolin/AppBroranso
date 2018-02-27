@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light"
-    android:id="@+id/C24"
-    tools:context="com.tcu.munozviolin.appbroranso.Caso24">
+    android:id="@+id/C18"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso18">
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="f"
+        android:text="t’"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -25,14 +25,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso24"
+        android:id="@+id/buttonCaso18"
         android:layout_width="95dp"
         android:layout_height="37dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="físcuo"
+        android:text="t’uë́rhuo"
         android:textAllCaps="?android:attr/windowSwipeToDismiss"
         android:textColor="@android:color/holo_green_light"
         android:textColorLink="@android:color/black"
@@ -40,22 +40,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso24_1"
+        android:id="@+id/buttonCaso18_1"
         android:layout_width="95dp"
         android:layout_height="37dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="89dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="fómcuo"
+        android:text="ë́b t’ë́rma"
         android:textAllCaps="?android:attr/windowSwipeToDismiss"
         android:textColor="@android:color/holo_green_light"
         android:textColorLink="@android:color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton24_1" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton18_1"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/gifIzq24"
+        android:id="@+id/gifIzq18"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -63,14 +64,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonCaso24"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCaso18"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
 
     <ImageView
-        android:id="@+id/gifDer24"
+        android:id="@+id/gifDer18"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -80,30 +81,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/buttonCaso24"
+        app:layout_constraintStart_toEndOf="@+id/buttonCaso18"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
 
     <ImageButton
-        android:id="@+id/imageButton24_1"
-        android:layout_width="95dp"
-        android:layout_height="95dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/fiscuo"
+        android:id="@+id/imageButton18_1"
+        android:layout_width="67dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/tuerhuo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso24"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18"
         app:srcCompat="@android:color/transparent" />
 
     <ImageButton
-        android:id="@+id/imageButton24_2"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="58dp"
+        android:id="@+id/imageButton18_2"
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="95dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/fomcuo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso24_1"
+        android:background="@drawable/ebterma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso18_1"
         app:srcCompat="@android:color/transparent" />
 
 </android.support.constraint.ConstraintLayout>

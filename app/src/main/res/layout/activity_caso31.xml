@@ -45,7 +45,7 @@
         android:layout_width="95dp"
         android:layout_height="37dp"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="113dp"
+        android:layout_marginTop="91dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
         android:text="nório"

@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent"
     android:backgroundTint="@android:color/background_light"
-    android:id="@+id/C12"
-    tools:context="com.tcu.munozviolin.appbroranso.Caso12">
+    android:id="@+id/C6"
+    tools:context="com.tcu.munozviolin.appbroranso.Caso6">
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/margarine"
-        android:text="hu̱"
+        android:text="i̱"
         android:textColor="@android:color/black"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -26,35 +26,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonCaso12"
+        android:id="@+id/buttonCaso6"
         android:layout_width="95dp"
         android:layout_height="37dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="36dp"
         android:background="@color/colorPrimary"
         android:fontFamily="@font/margarine"
-        android:text="shurín̈hu̱a̱"
+        android:text="dió sí̱"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonCaso12_1"
-        android:layout_width="95dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="92dp"
-        android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
-        android:text="zgó̱hu̱o̱"
-        android:textAllCaps="?android:attr/windowOverscan"
-        android:textColor="@android:color/holo_green_light"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageView
-        android:id="@+id/gifIzq12"
+        android:id="@+id/gifIzq6"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -65,7 +53,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/gifDer12"
+        android:id="@+id/gifDer6"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"
@@ -76,25 +64,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/imageButton6"
         android:layout_width="95dp"
         android:layout_height="102dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginStart="250dp"
         android:layout_marginTop="16dp"
-        android:background="@drawable/shurinhua"
+        android:background="@drawable/diosi"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso12"
-        app:srcCompat="@android:color/transparent" />
-
-    <ImageButton
-        android:id="@+id/imageButton12_2"
-        android:layout_width="78dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/zgohuo"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonCaso12_1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso6"
         app:srcCompat="@android:color/transparent" />
 
 

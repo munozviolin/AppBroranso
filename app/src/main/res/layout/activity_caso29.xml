@@ -86,10 +86,10 @@
 
     <ImageButton
         android:id="@+id/imageButton29_1"
-        android:layout_width="78dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="19dp"
+        android:layout_width="95dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/zhir"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCaso29"
@@ -97,9 +97,9 @@
 
     <ImageButton
         android:id="@+id/imageButton29_2"
-        android:layout_width="83dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="57dp"
+        android:layout_width="95dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="19dp"
         android:background="@drawable/quezhbon"
         app:layout_constraintStart_toStartOf="parent"
