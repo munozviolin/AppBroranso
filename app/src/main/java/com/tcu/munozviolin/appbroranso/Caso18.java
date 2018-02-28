@@ -49,33 +49,15 @@ public class Caso18 extends AppCompatActivity {
             }
         }, 4000);
 
-        Button buttonAudio = (Button) findViewById(R.id.buttonCaso18);
-        ImageButton buttonAudio1 = (ImageButton) findViewById(R.id.imageButton18);
-        Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso18_1);
+        //Button buttonAudio = (Button) findViewById(R.id.buttonCaso18);
+        ImageButton buttonAudio1 = (ImageButton) findViewById(R.id.imageButton18_1);
+        //Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso18_1);
         ImageButton buttonAudio8 = (ImageButton) findViewById(R.id.imageButton18_2);
-        Button buttonAudio4 = (Button) findViewById(R.id.buttonCaso18_2);
-        ImageButton buttonAudio5 = (ImageButton) findViewById(R.id.imageButton20_3);
-        Button buttonAudio3 = (Button) findViewById(R.id.buttonCaso18_3);
-        ImageButton buttonAudio6 = (ImageButton) findViewById(R.id.imageButton18_4);
-
-        buttonAudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(1);
-            }
-        });
 
         buttonAudio1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 play(1);
-            }
-        });
-
-        buttonAudio2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(2);
             }
         });
 
@@ -86,34 +68,6 @@ public class Caso18 extends AppCompatActivity {
             }
         });
 
-        buttonAudio4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(3);
-            }
-        });
-
-        buttonAudio5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(3);
-            }
-        });
-
-        buttonAudio3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
-            }
-        });
-
-        buttonAudio6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
-            }
-        });
-
         gestureObject = new GestureDetectorCompat(getApplicationContext(), new Caso18.LearnGesture());
     }
 
@@ -121,13 +75,9 @@ public class Caso18 extends AppCompatActivity {
         final MediaPlayer player;
 
         if (resourceID == 1){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.erra);
-        } else if (resourceID == 2){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.torroifa);
-        } else if (resourceID == 3){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.samorr);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.tuerhuo);
         } else {
-            player = MediaPlayer.create(getApplicationContext(), R.raw.porroporr);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.ebterma);
         }
 
         player.setAudioStreamType(AudioManager.STREAM_MUSIC);

@@ -49,33 +49,17 @@ public class Caso20 extends AppCompatActivity {
             }
         }, 4000);
 
-        Button buttonAudio = (Button) findViewById(R.id.buttonCaso20);
+        //Button buttonAudio = (Button) findViewById(R.id.buttonCaso20);
         ImageButton buttonAudio1 = (ImageButton) findViewById(R.id.imageButton20);
-        Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso20_1);
+        //Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso20_1);
         ImageButton buttonAudio8 = (ImageButton) findViewById(R.id.imageButton20_2);
-        Button buttonAudio4 = (Button) findViewById(R.id.buttonCaso20_2);
+        //Button buttonAudio4 = (Button) findViewById(R.id.buttonCaso20_2);
         ImageButton buttonAudio5 = (ImageButton) findViewById(R.id.imageButton20_3);
-        Button buttonAudio3 = (Button) findViewById(R.id.buttonCaso20_3);
-        ImageButton buttonAudio6 = (ImageButton) findViewById(R.id.imageButton20_4);
-
-        buttonAudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(1);
-            }
-        });
 
         buttonAudio1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 play(1);
-            }
-        });
-
-        buttonAudio2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(2);
             }
         });
 
@@ -86,31 +70,10 @@ public class Caso20 extends AppCompatActivity {
             }
         });
 
-        buttonAudio4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(3);
-            }
-        });
-
         buttonAudio5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 play(3);
-            }
-        });
-
-        buttonAudio3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
-            }
-        });
-
-        buttonAudio6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
             }
         });
 
@@ -121,13 +84,11 @@ public class Caso20 extends AppCompatActivity {
         final MediaPlayer player;
 
         if (resourceID == 1){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.lhuri);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.cuntren);
         } else if (resourceID == 2){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.pulhi);
-        } else if (resourceID == 3){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.culha);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.crac);
         } else {
-            player = MediaPlayer.create(getApplicationContext(), R.raw.porilh);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.drunquincui);
         }
 
         player.setAudioStreamType(AudioManager.STREAM_MUSIC);
@@ -156,12 +117,12 @@ public class Caso20 extends AppCompatActivity {
                 finish();
                 Caso20.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 startActivity(intent);
-            } /*else if (event1.getX() > event2.getX()){//swipe derecha
-                Intent intent = new Intent(Caso20.this, Caso19.class);
+            } else if (event1.getX() > event2.getX()){//swipe derecha
+                Intent intent = new Intent(Caso20.this, Caso21.class);
                 finish();
                 Caso20.this.overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 startActivity(intent);
-            }*/
+            }
             return true;
         }
     }

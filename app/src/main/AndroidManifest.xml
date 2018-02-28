@@ -39,7 +39,24 @@
         <activity android:name="com.tcu.munozviolin.appbroranso.Caso17" />
         <activity android:name="com.tcu.munozviolin.appbroranso.Caso18" />
         <activity android:name="com.tcu.munozviolin.appbroranso.Caso19" />
-        <activity android:name="com.tcu.munozviolin.appbroranso.Caso20"></activity>
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso20" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso21" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso22" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso23" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso24" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso25" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso26" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso27" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso28" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso29" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso30" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso31" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso32" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso33" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso34" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso35" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso36" />
+        <activity android:name="com.tcu.munozviolin.appbroranso.Caso37"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

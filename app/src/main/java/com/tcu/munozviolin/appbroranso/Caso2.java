@@ -49,30 +49,15 @@ public class Caso2 extends AppCompatActivity {
             }
         }, 4000);
 
-        Button buttonAudio = (Button) findViewById(R.id.buttonCaso2);
+        //Button buttonAudio = (Button) findViewById(R.id.buttonCaso2);
         ImageButton buttonAudio1 = (ImageButton) findViewById(R.id.imageButton2_1);
-        Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso2_1);
+        //Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso2_1);
         ImageButton buttonAudio3 = (ImageButton) findViewById(R.id.imageButton2_2);
-
-
-        buttonAudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(1);
-            }
-        });
 
         buttonAudio1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 play(1);
-            }
-        });
-
-        buttonAudio2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(2);
             }
         });
 
@@ -90,9 +75,9 @@ public class Caso2 extends AppCompatActivity {
         final MediaPlayer player;
 
         if (resourceID == 1){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.errefa);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.ma);
         } else {
-            player = MediaPlayer.create(getApplicationContext(), R.raw.tenanh);
+            player = MediaPlayer.create(getApplicationContext(), R.raw.taga);
         }
 
         player.setAudioStreamType(AudioManager.STREAM_MUSIC);

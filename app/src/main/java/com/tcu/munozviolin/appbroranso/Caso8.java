@@ -49,37 +49,15 @@ public class Caso8 extends AppCompatActivity {
             }
         }, 4000);
 
-        Button buttonAudio = (Button) findViewById(R.id.buttonCaso8);
+        //Button buttonAudio = (Button) findViewById(R.id.buttonCaso8);
         ImageButton buttonAudio1 = (ImageButton) findViewById(R.id.imageButton8);
-        Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso8_1);
+        //Button buttonAudio2 = (Button) findViewById(R.id.buttonCaso8_1);
         ImageButton buttonAudio8 = (ImageButton) findViewById(R.id.imageButton8_2);
-        Button buttonAudio4 = (Button) findViewById(R.id.buttonCaso8_2);
-        ImageButton buttonAudio5 = (ImageButton) findViewById(R.id.imageButton8_3);
-        Button buttonAudio3 = (Button) findViewById(R.id.buttonCaso8_3);
-        ImageButton buttonAudio6 = (ImageButton) findViewById(R.id.imageButton8_4);
-        Button buttonAudio7 = (Button) findViewById(R.id.buttonCaso8_4);
-        ImageButton buttonAudio9 = (ImageButton) findViewById(R.id.imageButton8_5);
-        Button buttonAudio10 = (Button) findViewById(R.id.buttonCaso8_5);
-        ImageButton buttonAudio11 = (ImageButton) findViewById(R.id.imageButton8_6);
-
-        buttonAudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(1);
-            }
-        });
 
         buttonAudio1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 play(1);
-            }
-        });
-
-        buttonAudio2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(2);
             }
         });
 
@@ -90,62 +68,6 @@ public class Caso8 extends AppCompatActivity {
             }
         });
 
-        buttonAudio4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(3);
-            }
-        });
-
-        buttonAudio5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(3);
-            }
-        });
-
-        buttonAudio3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
-            }
-        });
-
-        buttonAudio6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(4);
-            }
-        });
-
-        buttonAudio7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(5);
-            }
-        });
-
-        buttonAudio9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(5);
-            }
-        });
-
-        buttonAudio10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(6);
-            }
-        });
-
-        buttonAudio11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                play(6);
-            }
-        });
-
         gestureObject = new GestureDetectorCompat(getApplicationContext(), new Caso8.LearnGesture());
     }
 
@@ -153,17 +75,9 @@ public class Caso8 extends AppCompatActivity {
         final MediaPlayer player;
 
         if (resourceID == 1){
-            player = MediaPlayer.create(this, R.raw.caju);
-        } else if (resourceID == 2){
-            player = MediaPlayer.create(this, R.raw.tuectuenh);
-        } else if (resourceID == 3){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.quilanh);
-        } else if (resourceID == 4){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.querracaquerraca);
-        } else if (resourceID == 5){
-            player = MediaPlayer.create(getApplicationContext(), R.raw.cofe);
+            player = MediaPlayer.create(this, R.raw.roshco);
         } else {
-            player = MediaPlayer.create(getApplicationContext(), R.raw.cutu);
+            player = MediaPlayer.create(this, R.raw.cozra);
         }
 
         player.setAudioStreamType(AudioManager.STREAM_MUSIC);
