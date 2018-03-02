@@ -34,6 +34,23 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
     Button b18;
     Button b19;
     Button b20;
+    Button b21;
+    Button b22;
+    Button b23;
+    Button b24;
+    Button b25;
+    Button b26;
+    Button b27;
+    Button b28;
+    Button b29;
+    Button b30;
+    Button b31;
+    Button b32;
+    Button b33;
+    Button b34;
+    Button b35;
+    Button b36;
+    Button b37;
 
     public Fragment1() {
         // Required empty public constructor
@@ -65,6 +82,23 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         b18 = (Button) v.findViewById(R.id.b18);
         b19 = (Button) v.findViewById(R.id.b19);
         b20 = (Button) v.findViewById(R.id.b20);
+        b21 = (Button) v.findViewById(R.id.b21);
+        b22 = (Button) v.findViewById(R.id.b22);
+        b23 = (Button) v.findViewById(R.id.b23);
+        b24 = (Button) v.findViewById(R.id.b24);
+        b25 = (Button) v.findViewById(R.id.b25);
+        b26 = (Button) v.findViewById(R.id.b26);
+        b27 = (Button) v.findViewById(R.id.b27);
+        b28 = (Button) v.findViewById(R.id.b28);
+        b29 = (Button) v.findViewById(R.id.b29);
+        b30 = (Button) v.findViewById(R.id.b30);
+        b31 = (Button) v.findViewById(R.id.b31);
+        b32 = (Button) v.findViewById(R.id.b32);
+        b33 = (Button) v.findViewById(R.id.b33);
+        b34 = (Button) v.findViewById(R.id.b34);
+        b35 = (Button) v.findViewById(R.id.b35);
+        b36 = (Button) v.findViewById(R.id.b36);
+        b37 = (Button) v.findViewById(R.id.b37);
         b1.setOnClickListener(this);
         b2.setOnClickListener(this);
         b3.setOnClickListener(this);
@@ -85,6 +119,33 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         b18.setOnClickListener(this);
         b19.setOnClickListener(this);
         b20.setOnClickListener(this);
+        b11.setOnClickListener(this);
+        b12.setOnClickListener(this);
+        b13.setOnClickListener(this);
+        b14.setOnClickListener(this);
+        b15.setOnClickListener(this);
+        b16.setOnClickListener(this);
+        b17.setOnClickListener(this);
+        b18.setOnClickListener(this);
+        b19.setOnClickListener(this);
+        b20.setOnClickListener(this);
+        b21.setOnClickListener(this);
+        b22.setOnClickListener(this);
+        b23.setOnClickListener(this);
+        b24.setOnClickListener(this);
+        b25.setOnClickListener(this);
+        b26.setOnClickListener(this);
+        b27.setOnClickListener(this);
+        b28.setOnClickListener(this);
+        b29.setOnClickListener(this);
+        b30.setOnClickListener(this);
+        b31.setOnClickListener(this);
+        b32.setOnClickListener(this);
+        b33.setOnClickListener(this);
+        b34.setOnClickListener(this);
+        b35.setOnClickListener(this);
+        b36.setOnClickListener(this);
+        b37.setOnClickListener(this);
         return v;
     }
 
@@ -112,6 +173,23 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         int c18 = R.id.b18;
         int c19 = R.id.b19;
         int c20 = R.id.b20;
+        int c21 = R.id.b21;
+        int c22 = R.id.b22;
+        int c23 = R.id.b23;
+        int c24 = R.id.b24;
+        int c25 = R.id.b25;
+        int c26 = R.id.b26;
+        int c27 = R.id.b27;
+        int c28 = R.id.b28;
+        int c29 = R.id.b29;
+        int c30 = R.id.b30;
+        int c31 = R.id.b31;
+        int c32 = R.id.b32;
+        int c33 = R.id.b33;
+        int c34 = R.id.b34;
+        int c35 = R.id.b35;
+        int c36 = R.id.b36;
+        int c37 = R.id.b37;
 
         if (click == c1) {
             i = new Intent(view.getContext(), Caso1.class);
@@ -170,8 +248,59 @@ public class Fragment1 extends Fragment implements View.OnClickListener {
         } else if (click == c19) {
             i = new Intent(view.getContext(), Caso19.class);
             startActivity(i);
-        } else {
+        } else if (click == c20) {
             i = new Intent(view.getContext(), Caso20.class);
+            startActivity(i);
+        } else if (click == c21) {
+            i = new Intent(view.getContext(), Caso21.class);
+            startActivity(i);
+        } else if (click == c22) {
+            i = new Intent(view.getContext(), Caso22.class);
+            startActivity(i);
+        } else if (click == c23) {
+            i = new Intent(view.getContext(), Caso23.class);
+            startActivity(i);
+        } else if (click == c24) {
+            i = new Intent(view.getContext(), Caso24.class);
+            startActivity(i);
+        } else if (click == c25) {
+            i = new Intent(view.getContext(), Caso25.class);
+            startActivity(i);
+        } else if (click == c26) {
+            i = new Intent(view.getContext(), Caso26.class);
+            startActivity(i);
+        } else if (click == c27) {
+            i = new Intent(view.getContext(), Caso27.class);
+            startActivity(i);
+        } else if (click == c28) {
+            i = new Intent(view.getContext(), Caso28.class);
+            startActivity(i);
+        } else if (click == c29) {
+            i = new Intent(view.getContext(), Caso29.class);
+            startActivity(i);
+        } else if (click == c30) {
+            i = new Intent(view.getContext(), Caso30.class);
+            startActivity(i);
+        } else if (click == c31) {
+            i = new Intent(view.getContext(), Caso31.class);
+            startActivity(i);
+        } else if (click == c32) {
+            i = new Intent(view.getContext(), Caso32.class);
+            startActivity(i);
+        } else if (click == c33) {
+            i = new Intent(view.getContext(), Caso33.class);
+            startActivity(i);
+        } else if (click == c34) {
+            i = new Intent(view.getContext(), Caso34.class);
+            startActivity(i);
+        } else if (click == c35) {
+            i = new Intent(view.getContext(), Caso35.class);
+            startActivity(i);
+        } else if (click == c36) {
+            i = new Intent(view.getContext(), Caso36.class);
+            startActivity(i);
+        } else {
+            i = new Intent(view.getContext(), Caso37.class);
             startActivity(i);
         }
     }

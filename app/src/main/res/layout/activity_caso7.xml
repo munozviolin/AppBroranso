@@ -16,7 +16,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="@font/margarine"
+        android:fontFamily="sans-serif"
         android:text="\o"
         android:textColor="@android:color/black"
         android:textColorLink="@android:color/black"
@@ -33,7 +33,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
+        android:fontFamily="sans-serif"
         android:text="ón̈"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
@@ -47,7 +47,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="108dp"
         android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
+        android:fontFamily="sans-serif"
         android:text="orsë́a"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
@@ -61,7 +61,7 @@
         android:layout_marginEnd="52dp"
         android:layout_marginTop="64dp"
         android:background="@color/colorPrimary"
-        android:fontFamily="@font/margarine"
+        android:fontFamily="sans-serif"
         android:text="só"
         android:textAllCaps="?android:attr/windowOverscan"
         android:textColor="@android:color/holo_green_light"
@@ -116,9 +116,11 @@
         android:id="@+id/imageButton7_3"
         android:layout_width="95dp"
         android:layout_height="102dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/so"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="117dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCaso7_2" />
 
 
 </android.support.constraint.ConstraintLayout>
